@@ -1,0 +1,42 @@
+.mainPage img{
+    height: 650px;
+    width: 750px;
+    object-fit:cover;
+    position: absolute;
+}
+
+.mainPage{
+    display: flex;
+    align-items: center;
+
+    min-height: 70vh;
+}
+
+.mainPage_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    width: 800px;
+    margin-left: 45%;
+
+    position: relative;
+    z-index: 2;
+
+}
+
+.mainPage h1{
+    font-weight: 500;
+    font-size: 70px;
+    font-style: normal;
+    
+
+}
+
+.mainPage p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 45px;
+}
+

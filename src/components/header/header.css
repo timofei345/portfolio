@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 72px 0px 72px ;
+    
+    
+}
+
+.headerName{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: larger;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+   
+
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    font-weight: 400;
+    
+}
+
+nav a {
+    color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    /* background-color: rgb(2, 125, 225);  */
+    transition: background-color 0.3s ease, color 0.3s ease, margin 0.3s ease, padding 0.3s ease; 
+  }
+
+  nav a:hover {
+    background-color: lightblue; /* Цвет фона при наведении курсора */
+  }
+
+nav li{
+    padding: 30px 20px ;
+}
+
+
+nav li.active a {
+    background-color: rgb(48, 25, 161);
+    color: white;
+  }
+

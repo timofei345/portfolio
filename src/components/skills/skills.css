@@ -1,0 +1,67 @@
+.skillset_info h1{
+
+font-size: 55px;
+font-weight: 500;
+line-height: normal;
+color: white;
+margin-bottom: 24px ;
+
+}
+
+.skillset_info p{
+    font-weight: 400;
+    font-size: 16px;
+    color: lightgray;
+    margin-bottom: 12px;
+    line-height: 24px;
+   
+    
+}
+
+.skillset{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+
+}
+
+.skillset_category{
+ display: flex;   
+ flex-wrap: wrap;
+ width: 55%;
+}
+
+.skillset_info{
+    width: 30%;
+
+}
+
+.slider-container {
+  width: 600px; /* Ширина всего слайдера (200px * 3) */
+  height: 100px;
+  margin: 0 auto; /* Центрирование слайдера по горизонтали */
+  overflow: hidden; /* Обрезать изображение, если оно выходит за границы слайдера */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Анимация перехода между слайдами */
+}
+
+.slide {
+  width: 200px; /* Ширина каждого слайда */
+  height: 100%; /* Высота слайда равна высоте контейнера */
+  box-sizing: border-box; /* Учитываем padding и border внутри слайда */
+  padding: 0 10px; /* Отступы по бокам для создания промежутков между слайдами */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  max-width: 100%; /* Максимальная ширина изображения в пределах слайда */
+  max-height: 100%; /* Максимальная высота изображения в пределах слайда */
+  object-fit: cover; /* Заполнение изображения в слайде */
+}
